@@ -1,11 +1,15 @@
+How to Run the App
+Clone the Repository:
+Use the following command to clone the repository to your local machine:
+git clone https://github.com/shreya-2101/hello-world-DJANGO.git
+Navigate to the Project Directory:
+Change into the project directory:
 
-# Hello World Django App
+cd hello-world-DJANGO
+Run the Application:
+Use the following commands to start the Django development server:
 
-## Description
-This is a simple Django application that returns a JSON response with a "Hello World" message.
-
-## JSON Response Example:
-```json
-{
-  "Message": "Hello World!"
-}
+python manage.py runserver
+Access the App in a Browser:
+Open your browser and navigate to: http://127.0.0.1:8000/polls/
+You should see the "Hello World" message as the output.
